@@ -15,7 +15,7 @@ for (let i = 0; i < cardPairs.length; i++) {
     card.innerHTML = `
     <div class="front-face"></div>
     <div class="back-face">${cardPairs[i]}</div>
-  `;
+    `;
     cardsContainer.appendChild(card);
 }
 
